@@ -1,0 +1,25 @@
+name: Webapp CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  run-ci:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: recursive
+
+      - uses: actions/setup-node@v2
+        with:
+          node-version: "16"
+
+      - name: Install NPM packages
+        run: npm install
+
+      - name: Run tests
+        run: npm test
