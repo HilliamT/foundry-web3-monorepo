@@ -1,4 +1,4 @@
-name: CI
+name: Solidity Contracts CI
 
 on:
   push:
