@@ -1,6 +1,10 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
+echo "===== Foundry Solidity Tests ====="
+forge test
+
+echo "===== Blitz.js Webapp Tests ====="
 npx tsc
 npm run lint
 npm run test
