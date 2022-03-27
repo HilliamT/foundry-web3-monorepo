@@ -20,4 +20,4 @@ jobs:
           version: nightly
 
       - name: Run tests
-        run: FOUNDRY_PROFILE=ci make test
+        run: FOUNDRY_PROFILE=ci make forge-test
