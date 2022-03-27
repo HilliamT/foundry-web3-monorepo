@@ -19,7 +19,7 @@ jobs:
           node-version: "16"
 
       - name: Install NPM packages
-        run: npm install
+        run: make blitz-install
 
       - name: Run tests
-        run: npm test
+        run: make blitz-test

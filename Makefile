@@ -3,8 +3,8 @@
 -include .env
 
 # Dependencies
-forge-dep:; forge update
-blitz-dep:; (cd app && npm install)
+forge-install:; forge update
+blitz-install:; (cd app && yarn)
 install: forge-dep blitz-dep
 
 # Clean
