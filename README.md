@@ -14,7 +14,7 @@ To install the dependencies provided in this boilerplate, you can run:
 make install
 ```
 
-The following dependencies are provided:
+The following dependencies will be installed:
 
 - `lib/`
   - [solmate](https://github.com/Rari-Capital/solmate) - Gas optimised smart contracts to build upon
