@@ -2,7 +2,11 @@
   Another Foundry Boilerplate <sub><sup><sub><sup>but this time, as a web3 monorepo</sup></sub></sup></sub>
 </h1>
 
+This monorepo draws inspiration from [Scaffold-Eth](https://github.com/scaffold-eth/scaffold-eth) to jump into experimenting with smart contract and Web3 development.
+
 ## Installation
+
+`🚧 TODO: Update 🚧`
 
 To install with [DappTools](https://github.com/dapphub/dapptools):
 
@@ -16,24 +20,18 @@ To install with [Foundry](https://github.com/gakonst/foundry):
 forge install [user]/[repo]
 ```
 
-## Local development
+## Configuration
 
-This project uses [Foundry](https://github.com/gakonst/foundry) as the development framework.
+`🚧 TODO: Write 🚧`
 
-### Dependencies
+## Folder Structure
 
-```
-make update
-```
+`🚧 TODO: Write 🚧`
 
-### Compilation
+## Commands
 
-```
-make build
-```
+`🚧 TODO: Write 🚧`
 
-### Testing
+## Resources
 
-```
-make test
-```
+`🚧 TODO: Write 🚧`
