@@ -4,6 +4,8 @@
 
 This monorepo draws inspiration from [Scaffold-Eth](https://github.com/scaffold-eth/scaffold-eth) to jump into experimenting with smart contract and Web3 development.
 
+Though this repository will encompass code for both the frontend and smart contract backend for you to develop quickly on the fly, you should opt to split the work into two separate repositories for larger projects.
+
 ## Installation
 
 `🚧 TODO: Update 🚧`
