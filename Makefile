@@ -5,7 +5,7 @@
 # Dependencies
 forge-install:; forge update
 blitz-install:; (cd app && yarn)
-install: forge-dep blitz-dep
+install: forge-install blitz-install
 
 # Clean
 forge-clean:; forge clean
