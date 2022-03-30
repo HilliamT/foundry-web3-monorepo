@@ -1,6 +1,8 @@
-# Foundry template
+<center>
 
-This is a template for a Foundry project.
+# Another Foundry Boilerplate <br><sub><sup><sub><sup>but this time, as a web3 monorepo</sup></sub></sup></sub>
+
+</center>
 
 ## Installation
 
