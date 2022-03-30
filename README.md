@@ -1,8 +1,6 @@
-<center>
-
-# Another Foundry Boilerplate <br><sub><sup><sub><sup>but this time, as a web3 monorepo</sup></sub></sup></sub>
-
-</center>
+<h1 align="center">
+  Another Foundry Boilerplate <sub><sup><sub><sup>but this time, as a web3 monorepo</sup></sub></sup></sub>
+</h1>
 
 ## Installation
 
