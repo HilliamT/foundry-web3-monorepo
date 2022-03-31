@@ -1,3 +1,6 @@
-# Foundry
+# Built Contracts
 cache/
 out/
+
+# Gas Snapshot Artifact
+.gas-snapshot

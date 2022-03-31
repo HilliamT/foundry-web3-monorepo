@@ -15,7 +15,8 @@ lint: forge-lint blitz-lint
 # Clean
 forge-clean:; forge clean
 blitz-clean:; (cd app && npm run clean)
-clean: forge-clean blitz-clean
+snapshot-clean:; rm -rf .gas-snapshot
+clean: forge-clean blitz-clean snapshot-clean
 
 # Test
 forge-test:; forge test -vvv
