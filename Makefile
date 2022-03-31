@@ -18,7 +18,7 @@ blitz-clean:; (cd app && npm run clean)
 clean: forge-clean blitz-clean
 
 # Test
-forge-test:; forge test
+forge-test:; forge test -vvv
 blitz-test:; (cd app && npm run test)
 test: forge-test blitz-test
 

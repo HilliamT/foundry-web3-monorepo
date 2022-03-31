@@ -68,6 +68,7 @@ Below are several resources that may be helpful for getting started with this bo
 - [Installing Dependencies using Foundry and Forge](https://github.com/gakonst/foundry/blob/master/cli/README.md#forge)
 - [Examples using ds-test to write smart contract tests in Solidity](https://github.com/dapphub/ds-test/blob/master/demo/demo.sol)
 - [Fuzzing smart contract tests with Foundry](https://github.com/gakonst/foundry/tree/master/forge#fuzzing-go-beyond-unit-testing)
+- [Increasing verbosity of logs from `forge test`](https://github.com/gakonst/foundry/blob/master/cli/README.md#test)
 - [libevm/forge-example: Using custom deploy scripts](https://github.com/libevm/forge-example)
 - [paulrberg/solidity-template: Developer Tooling for Solidity](https://github.com/paulrberg/solidity-template)
 - [adrianmcli/web3-vs-ethers: Web3.js vs Ethers.js](https://github.com/adrianmcli/web3-vs-ethers)
