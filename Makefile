@@ -8,7 +8,7 @@ blitz-install:; (cd app && yarn)
 install: forge-install blitz-install
 
 # Lint
-forge-lint:; npx solhint --config ./.solhint.json  --fix contracts/**/*.sol
+forge-lint:; npx solhint --config ./.solhint.json  --fix contracts/*/**.sol contracts/*.sol
 blitz-lint:; echo "blitz-lint: TODO"
 lint: forge-lint blitz-lint
 
