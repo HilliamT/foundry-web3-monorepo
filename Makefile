@@ -31,7 +31,6 @@ prod:; (cd app && npm run start)
 # Forge Miscs
 contracts:; forge build
 snapshot:; forge snapshot
-trace:; forge test -vvv
 report:; forge test --gas-report
 
 # Stop 'make' from mistaking commands for directories
