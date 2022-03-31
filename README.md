@@ -52,11 +52,11 @@ The Git submodule will be installed under `/lib`.
 
 `🚧 TODO: Write 🚧`
 
-## Folder Structure
+## Commands
 
 `🚧 TODO: Write 🚧`
 
-## Commands
+## Folder Structure
 
 `🚧 TODO: Write 🚧`
 
