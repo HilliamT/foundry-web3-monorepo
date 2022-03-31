@@ -62,9 +62,7 @@ The Git submodule will be installed under `/lib`.
 
 ## Resources
 
-`🚧 TODO: Write 🚧`
-
-### Installation
+Below are several resources that may be helpful for getting started with this boilerplate and extending it for your use cases.
 
 - [Examples using ds-test to write smart contract tests in Solidity](https://github.com/dapphub/ds-test/blob/master/demo/demo.sol)
 - [Installing Dependencies using DappTools](https://github.com/dapphub/dapptools/tree/master/src/dapp#dapp-install)
