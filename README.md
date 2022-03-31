@@ -31,7 +31,15 @@ You may wish to install your own dependencies for usage in your frontend or your
 
 #### Frontend Dependencies
 
-`🚧 TODO: Write 🚧`
+The node ecosystem provides many packages for frontend development. The repository uses [Yarn](https://yarnpkg.com/) for managing dependencies due to its ease of use and speed over the native [npm](https://nodejs.org/api/npm.html) command.
+
+You can install any Node dependencies you need by running:
+
+```bash
+yarn add --cwd app <package> # same as `cd app && yarn add <package>`
+```
+
+The Node package will be installed in the `app/node_modules` directory and recorded to `app/package.json`
 
 #### Smart Contract Dependencies
 
