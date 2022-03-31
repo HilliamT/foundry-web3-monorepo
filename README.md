@@ -66,5 +66,6 @@ The Git submodule will be installed under `/lib`.
 
 ### Installation
 
+- [Examples using ds-test to write smart contract tests in Solidity](https://github.com/dapphub/ds-test/blob/master/demo/demo.sol)
 - [Installing Dependencies using DappTools](https://github.com/dapphub/dapptools/tree/master/src/dapp#dapp-install)
 - [Installing Dependencies using Foundry and Forge](https://github.com/gakonst/foundry/blob/master/cli/README.md#forge)
