@@ -77,6 +77,7 @@ Below are several resources that may be helpful for getting started with this bo
 
 #### Miscellaneous
 
+- [Utilising pre- and post- npm hooks](https://docs.npmjs.com/cli/v8/using-npm/scripts)
 - [Installing Dependencies using DappTools](https://github.com/dapphub/dapptools/tree/master/src/dapp#dapp-install)
 - [Installing Dependencies using Foundry and Forge](https://github.com/gakonst/foundry/blob/master/cli/README.md#forge)
 - [libevm/forge-example: Using custom deploy scripts](https://github.com/libevm/forge-example)
