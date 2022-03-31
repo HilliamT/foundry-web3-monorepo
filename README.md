@@ -68,3 +68,4 @@ Below are several resources that may be helpful for getting started with this bo
 - [Installing Dependencies using Foundry and Forge](https://github.com/gakonst/foundry/blob/master/cli/README.md#forge)
 - [Examples using ds-test to write smart contract tests in Solidity](https://github.com/dapphub/ds-test/blob/master/demo/demo.sol)
 - [libevm/forge-example: Using custom deploy scripts](https://github.com/libevm/forge-example)
+- [paulrberg/solidity-template: Developer Tooling for Solidity](https://github.com/paulrberg/solidity-template)
