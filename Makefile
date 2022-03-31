@@ -7,6 +7,11 @@ forge-install:; forge update
 blitz-install:; (cd app && yarn)
 install: forge-install blitz-install
 
+# Lint
+forge-lint:; npx solhint --config ./.solhint.json  --fix contracts/**/*.sol
+blitz-lint:; echo "blitz-lint: TODO"
+lint: forge-lint blitz-lint
+
 # Clean
 forge-clean:; forge clean
 blitz-clean:; (cd app && npm run clean)
