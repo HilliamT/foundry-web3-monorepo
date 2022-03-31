@@ -69,3 +69,4 @@ Below are several resources that may be helpful for getting started with this bo
 - [Examples using ds-test to write smart contract tests in Solidity](https://github.com/dapphub/ds-test/blob/master/demo/demo.sol)
 - [libevm/forge-example: Using custom deploy scripts](https://github.com/libevm/forge-example)
 - [paulrberg/solidity-template: Developer Tooling for Solidity](https://github.com/paulrberg/solidity-template)
+- [adrianmcli/web3-vs-ethers: Web3.js vs Ethers.js](https://github.com/adrianmcli/web3-vs-ethers)
