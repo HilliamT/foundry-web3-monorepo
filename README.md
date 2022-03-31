@@ -79,6 +79,7 @@ Below are several resources that may be helpful for getting started with this bo
 #### Frontend
 
 - [adrianmcli/web3-vs-ethers: Web3.js vs Ethers.js](https://github.com/adrianmcli/web3-vs-ethers)
+- [Standardising login UX with web3modal](https://github.com/Web3Modal/web3modal)
 
 #### Testing
 
