@@ -40,7 +40,7 @@ You can install any Node dependencies you need by running:
 yarn add --cwd app <package> # same as `cd app && yarn add <package>`
 ```
 
-The Node package will be installed in the `app/node_modules` directory and recorded to `app/package.json`
+The Node package will be installed in the `app/node_modules` directory and recorded in `app/package.json`.
 
 #### Smart Contract Dependencies
 
