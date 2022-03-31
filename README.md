@@ -20,7 +20,10 @@ The following dependencies will be installed:
   - [solmate](https://github.com/Rari-Capital/solmate) - Gas optimised smart contracts to build upon
   - [ds-test](https://github.com/dapphub/ds-test/) - Helpers for testing your smart contracts in Solidity
 - `app/node_modules/`
-  - `🚧 TODO: Write 🚧`
+  - [blitz](https://github.com/blitz-js/blitz) - A simple, fast, and powerful JavaScript framework for building web applications
+  - [ethers](https://github.com/ethers-io/ethers.js) - A JavaScript library for interacting with the Ethereum blockchain
+  - [typechain](https://github.com/dethcrypto/TypeChain) - Generate TypeScript interfaces from built Solidity contracts
+  - [@typechain/ethers-v5](https://github.com/dethcrypto/TypeChain/tree/master/packages/target-ethers-v5#typechain-target-ethers-v5) - Helper package for Typechain to generate TypeScript interfaces for Ethers.js v5
 
 ### Installing your own Dependencies
 
