@@ -5,7 +5,6 @@ node_modules
 .yarn/build-state.yml
 .pnp.*
 .npm
-web_modules/
 
 # blitz
 /.blitz/
@@ -16,42 +15,14 @@ web_modules/
 .blitz**
 blitz-log.log
 
-# misc
-.DS_Store
-
 # local env files
 .env
 .env.local
 .env.*.local
 .envrc
 
-# Logs
-logs
-*.log
-
-# Runtime data
-pids
-*.pid
-*.seed
-*.pid.lock
-
-# Testing
-.coverage
-*.lcov
-.nyc_output
-lib-cov
-
 # Caches
 *.tsbuildinfo
-.eslintcache
-.node_repl_history
-.yarn-integrity
-
-# Serverless directories
-.serverless/
-
-# Stores VSCode versions used for testing VSCode extensions
-.vscode-test
 
 # Typechain Built Types
 contracts
