@@ -67,3 +67,7 @@ Below are several resources that may be helpful for getting started with this bo
 - [Examples using ds-test to write smart contract tests in Solidity](https://github.com/dapphub/ds-test/blob/master/demo/demo.sol)
 - [Installing Dependencies using DappTools](https://github.com/dapphub/dapptools/tree/master/src/dapp#dapp-install)
 - [Installing Dependencies using Foundry and Forge](https://github.com/gakonst/foundry/blob/master/cli/README.md#forge)
+
+I have also taken inspiration from a lot of other boilerplates to collate their knowledge into this repository.
+
+- [libevm/forge-example: remappings.txt, custom deploy scripts](https://github.com/libevm/forge-example)
