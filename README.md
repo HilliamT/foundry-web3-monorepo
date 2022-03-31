@@ -24,6 +24,7 @@ The following dependencies will be installed:
   - [ethers](https://github.com/ethers-io/ethers.js) - A JavaScript library for interacting with the Ethereum blockchain
   - [typechain](https://github.com/dethcrypto/TypeChain) - Generate TypeScript interfaces from built Solidity contracts
   - [@typechain/ethers-v5](https://github.com/dethcrypto/TypeChain/tree/master/packages/target-ethers-v5#typechain-target-ethers-v5) - Helper package for Typechain to generate TypeScript interfaces for Ethers.js v5
+  - [wagmi](https://github.com/tmm/wagmi) - React Hooks library for Ethereum, built on Ethers.js
 
 ### Installing your own Dependencies
 
