@@ -72,70 +72,85 @@ The Git submodule will be installed under `lib`.
 
 To help with understanding the structure of this repository, here is a diagram of the folder structure:
 
-<details><summary><code>.github/workflows</code> - Workflows for <a href="https://github.com/features/actions">Github Actions</a></summary>
+<details>
+  <summary><code>.github/workflows</code> - Workflows for <a href="https://github.com/features/actions">Github Actions</a></summary>
   <ul>
     <li><code>contracts.yml</code> - Automated CI/CD for your smart contracts</li>
     <li><code>webapp.yml</code> - Automated CI/CD for your frontend</li>
   </ul>
-  </details>
-
-<details><summary><code>.husky</code> - Bash scripts to run on Git hooks with <a href="https://github.com/typicode/husky">Husky</a></summary></details>
-
-
-<details><summary><code>app</code> - Your frontend code</summary>
-    <ul>
-      <li><code>package.json</code> - Your frontend dependencies</li>
-      <li><code>components</code> - Any shared React components</li>
-      <li><code>hooks</code> - React Hooks</li>
-      <li><code>pages</code> - <a href="https://blitzjs.com/docs/pages">React pages</a> for your app go here</li>
-      <li><code>public</code> - Any static files go here</li>
-      <li><code>test</code> - Any app tests go here e.g React Component testing, E2E testing etc.</li>
-      <li><code>.eslintrc.js</code> - <a href="https://eslint.org/">ESLint</a> configuration</li>
-      <li><code>.gitignore</code> - Ignore any files you don't want to push to Git</li>
-      <li><code>blitz.config.ts</code> - <a href="https://blitzjs.com/docs/config">Blitz configuration</a></li>
-      <li><code>jest.config.ts</code> - <a href="https://jestjs.io/docs/en/configuration">Jest configuration</a></li>
-      <li><code>tsconfig.json</code> - <a href="https://www.typescriptlang.org/docs/handbook/tsconfig-json.html">TypeScript configuration</a></li>
-      <li><code>types</code> - TypeScript types used around your app</li>
-      <li><code>yarn.lock</code> - <a href="https://yarnpkg.com/lang/en/docs/install/">Yarn</a> lock file</li>
-    </ul>
-  </details>
-
-  <details><summary><code>contracts</code> - Your smart contracts</summary>
-    <ul>
-    <li><code>*.sol</code> - Your smart contracts</li>
-      <li><code>test/*.t.sol</code> - Tests for smart contracts</li>
-      <li><code>test/base</code> - BaseTest contract to inherit for utils</li>
-      <li><code>test/utils</code> - Test utils</li>
-    </ul>
-    </details>
-
-  <details><summary><code>lib</code> - Your smart contract dependencies, see preinstalled ones <a href="#installation">here</a>.</summary>
-    </details>
-
-<details><summary><code>.</code> -Top level files e.g the <code> Makefile</code></summary>
-<ul>
- <li><summary><code>.gitignore</code> - Ignore any files you don't want to push to Git</summary></li>
-
-  <li><summary><code>.gitmodules</code> - Git submodules configuration</summary></li>
-
-
- <li><summary><code>.lintstagedrc</code> - Configuration for lint-staged in Husky scripts</summary></li>
-
- <li><summary><code>.solhint.json</code> - <a href="https://github.com/protofire/solhint">Solhint</a> configuration</summary></li>
-
- <li><summary><code>.solhintignore</code> - Ignore any files you don't want Solhint to lint</summary></li>
-
- <li><summary><code>foundry.toml</code> - <a href="https://book.getfoundry.sh/reference/config.html">Foundry configuration</a></summary></li>
-
- <li><summary><code>Makefile</code> - Various commands, see <a href="#commands">here</a>.</summary></li>
-
-<li><summary><code>README.md</code> - This file!</summary></li>
-
-<li><summary><code>remappings.txt</code> - <a href="https://book.getfoundry.sh/projects/dependencies.html#remapping-dependencies">Configure import paths</a> for Solidity dependencies for Forge</summary></li>
-</ul>
-
 </details>
 
+<details>
+  <summary><code>.husky</code> - Bash scripts to run on Git hooks with <a href="https://github.com/typicode/husky">Husky</a></summary>
+</details>
+
+
+<details>
+  <summary><code>app</code> - Your frontend code</summary>
+  <ul>
+    <li><code>package.json</code> - Your frontend dependencies</li>
+    <li><code>components</code> - Any shared React components</li>
+    <li><code>hooks</code> - React Hooks</li>
+    <li><code>pages</code> - <a href="https://blitzjs.com/docs/pages">React pages</a> for your app go here</li>
+    <li><code>public</code> - Any static files go here</li>
+    <li><code>test</code> - Any app tests go here e.g React Component testing, E2E testing etc.</li>
+    <li><code>.eslintrc.js</code> - <a href="https://eslint.org/">ESLint</a> configuration</li>
+    <li><code>.gitignore</code> - Ignore any files you don't want to push to Git</li>
+    <li><code>blitz.config.ts</code> - <a href="https://blitzjs.com/docs/config">Blitz configuration</a></li>
+    <li><code>jest.config.ts</code> - <a href="https://jestjs.io/docs/en/configuration">Jest configuration</a></li>
+    <li><code>tsconfig.json</code> - <a href="https://www.typescriptlang.org/docs/handbook/tsconfig-json.html">TypeScript configuration</a></li>
+    <li><code>types</code> - TypeScript types used around your app</li>
+    <li><code>yarn.lock</code> - <a href="https://yarnpkg.com/lang/en/docs/install/">Yarn</a> lock file</li>
+  </ul>
+</details>
+
+<details>
+  <summary><code>contracts</code> - Your smart contracts</summary>
+  <ul>
+    <li><code>*.sol</code> - Your smart contracts</li>
+    <li><code>test/*.t.sol</code> - Tests for smart contracts</li>
+    <li><code>test/base</code> - BaseTest contract to inherit for utils</li>
+    <li><code>test/utils</code> - Test utils</li>
+  </ul>
+</details>
+
+<details>
+  <summary><code>lib</code> - Your smart contract dependencies, see preinstalled ones <a href="#installation">here</a>.</summary>
+</details>
+
+<details>
+  <summary><code>.</code> -Top level files e.g the <code> Makefile</code></summary>
+  <ul>
+    <li>
+      <summary><code>.gitignore</code> - Ignore any files you don't want to push to Git</summary>
+    </li>
+    <li>
+      <summary><code>.gitmodules</code> - Git submodules configuration</summary>
+    </li>
+    <li>
+      <summary><code>.lintstagedrc</code> - Configuration for lint-staged in Husky scripts</summary>
+    </li>
+    <li>
+      <summary><code>.solhint.json</code> - <a href="https://github.com/protofire/solhint">Solhint</a> configuration</summary>
+    </li>
+    <li>
+      <summary><code>.solhintignore</code> - Ignore any files you don't want Solhint to lint</summary>
+    </li>
+    <li>
+      <summary><code>foundry.toml</code> - <a href="https://book.getfoundry.sh/reference/config.html">Foundry configuration</a></summary>
+    </li>
+    <li>
+      <summary><code>Makefile</code> - Various commands, see <a href="#commands">here</a>.</summary>
+    </li>
+    <li>
+      <summary><code>README.md</code> - This file!</summary>
+    </li>
+    <li>
+      <summary><code>remappings.txt</code> - <a href="https://book.getfoundry.sh/projects/dependencies.html#remapping-dependencies">Configure import paths</a> for Solidity dependencies for Forge</summary>
+    </li>
+  </ul>
+
+</details>
 
 ## Resources
 
