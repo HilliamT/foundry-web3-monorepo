@@ -145,6 +145,7 @@ Below are several resources that may be helpful for getting started with this bo
 #### Testing
 
 - [The Solcurity Standard](https://github.com/Rari-Capital/solcurity)
+- [Utilities provided in ds-test](https://book.getfoundry.sh/reference/ds-test.html)
 - [Examples using ds-test to write smart contract tests in Solidity](https://github.com/dapphub/ds-test/blob/master/demo/demo.sol)
 - [Fuzzing smart contract tests with Foundry](https://github.com/gakonst/foundry/tree/master/forge#fuzzing-go-beyond-unit-testing)
 - [Increasing verbosity of logs from `forge test`](https://github.com/gakonst/foundry/blob/master/cli/README.md#test)
