@@ -112,25 +112,29 @@ To help with understanding the structure of this repository, here is a diagram o
   <details><summary><code>lib</code> - Your smart contract dependencies, see preinstalled ones <a href="#installation">here</a>.</summary>
     </details>
 
- <summary><code>.gitignore</code> - Ignore any files you don't want to push to Git</summary>
+<details><summary><code>.</code> -Top level files e.g the <code> Makefile</code></summary>
+<ul>
+ <li><summary><code>.gitignore</code> - Ignore any files you don't want to push to Git</summary></li>
 
-  <summary><code>.gitmodules</code> - Git submodules configuration</summary>
+  <li><summary><code>.gitmodules</code> - Git submodules configuration</summary></li>
 
 
- <summary><code>.lintstagedrc</code> - Configuration for lint-staged in Husky scripts</summary>
+ <li><summary><code>.lintstagedrc</code> - Configuration for lint-staged in Husky scripts</summary></li>
 
- <summary><code>.solhint.json</code> - <a href="https://github.com/protofire/solhint">Solhint</a> configuration</summary>
+ <li><summary><code>.solhint.json</code> - <a href="https://github.com/protofire/solhint">Solhint</a> configuration</summary></li>
 
- <summary><code>.solhintignore</code> - Ignore any files you don't want Solhint to lint
+ <li><summary><code>.solhintignore</code> - Ignore any files you don't want Solhint to lint</summary></li>
 
- <summary><code>foundry.toml</code> - <a href="https://book.getfoundry.sh/reference/config.html">Foundry configuration</a>
+ <li><summary><code>foundry.toml</code> - <a href="https://book.getfoundry.sh/reference/config.html">Foundry configuration</a></summary></li>
 
- <summary><code>Makefile</code> - Various commands, see <a href="#commands">here</a>.
+ <li><summary><code>Makefile</code> - Various commands, see <a href="#commands">here</a>.</summary></li>
 
-<summary><code>README.md</code> - This file!</summary>
+<li><summary><code>README.md</code> - This file!</summary></li>
 
-<summary><code>remappings.txt</code> - <a href="https://book.getfoundry.sh/projects/dependencies.html#remapping-dependencies">Configure import paths</a> for Solidity dependencies for Forge</summary>
+<li><summary><code>remappings.txt</code> - <a href="https://book.getfoundry.sh/projects/dependencies.html#remapping-dependencies">Configure import paths</a> for Solidity dependencies for Forge</summary></li>
+</ul>
 
+</details>
 
 
 ## Resources
