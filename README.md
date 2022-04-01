@@ -161,7 +161,7 @@ Below are several resources that may be helpful for getting started with this bo
 - [adrianmcli/web3-vs-ethers: Web3.js vs Ethers.js](https://github.com/adrianmcli/web3-vs-ethers)
 - [Standardising login UX with web3modal](https://github.com/Web3Modal/web3modal)
 
-#### Testing
+#### Smart Contract Testing
 
 - [The Solcurity Standard](https://github.com/Rari-Capital/solcurity)
 - [Utilities provided in ds-test](https://book.getfoundry.sh/reference/ds-test.html)
@@ -169,6 +169,7 @@ Below are several resources that may be helpful for getting started with this bo
 - [Fuzzing smart contract tests with Foundry](https://github.com/gakonst/foundry/tree/master/forge#fuzzing-go-beyond-unit-testing)
 - [Increasing verbosity of logs from `forge test`](https://github.com/gakonst/foundry/blob/master/cli/README.md#test)
 - [Static Analysis with Slither](https://github.com/crytic/slither)
+- [Symbolic Execution with Manticore](https://github.com/trailofbits/manticore)
 
 #### Miscellaneous
 
