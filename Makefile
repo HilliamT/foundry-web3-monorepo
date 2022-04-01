@@ -2,23 +2,23 @@
 # (-include to ignore error if it does not exist)
 -include .env
 
-# Dependencies
+# Install dependencies
 forge-install:; forge update
 blitz-install:; (cd app && yarn)
 install: forge-install blitz-install
 
-# Lint
+# Lint code for style hygiene
 forge-lint:; npx solhint --config ./.solhint.json  --fix contracts/*/**.sol contracts/*.sol
 blitz-lint:; echo "blitz-lint: TODO"
 lint: forge-lint blitz-lint
 
-# Clean
+# Clean away build artifacts
 forge-clean:; forge clean
 blitz-clean:; (cd app && npm run clean)
 snapshot-clean:; rm -rf .gas-snapshot
 clean: forge-clean blitz-clean snapshot-clean
 
-# Test
+# Test code
 forge-test:; forge test -vvv
 blitz-test:; (cd app && npm run test)
 test: forge-test blitz-test
