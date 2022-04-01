@@ -170,7 +170,9 @@ Below are several resources that may be helpful for getting started with this bo
 - [Increasing verbosity of logs from `forge test`](https://github.com/gakonst/foundry/blob/master/cli/README.md#test)
 - [Static Analysis with Slither](https://github.com/crytic/slither)
 - [Symbolic Execution with Manticore](https://github.com/trailofbits/manticore)
-- [Property-Based Testing with Scribble](https://github.com/ConsenSys/scribble)
+- [Contract-level Property-based Testing with Echidna](https://github.com/crytic/echidna)
+- [Function-level Property-based Testing with Scribble](https://github.com/ConsenSys/scribble)
+- [crytic/building-secure-contracts: Guide to using Slither, Echidna, and Manticore for testing](https://github.com/crytic/building-secure-contracts)
 #### Miscellaneous
 
 - [Utilising pre- and post- npm hooks](https://docs.npmjs.com/cli/v8/using-npm/scripts)
