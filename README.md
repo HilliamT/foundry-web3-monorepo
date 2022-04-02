@@ -25,6 +25,8 @@ The following dependencies will be installed:
   - [typechain](https://github.com/dethcrypto/TypeChain) - Generate TypeScript interfaces from built Solidity contracts
   - [@typechain/ethers-v5](https://github.com/dethcrypto/TypeChain/tree/master/packages/target-ethers-v5#typechain-target-ethers-v5) - Helper package for Typechain to generate TypeScript interfaces for Ethers.js v5
   - [wagmi](https://github.com/tmm/wagmi) - React Hooks library for Ethereum, built on Ethers.js
+  - [siwe](https://github.com/spruceid/siwe) - Helpers to conform to EIP-4361 (SIWE) authentication standard
+  - [iron-session](https://github.com/vvo/iron-session) - Session management for authentication using encrypted cookies
 
 ### Installing your own Dependencies
 
@@ -178,6 +180,7 @@ Below are several resources that may be helpful for getting started with this bo
 - [Contract-level Property-based Testing with Echidna](https://github.com/crytic/echidna)
 - [Function-level Property-based Testing with Scribble](https://github.com/ConsenSys/scribble)
 - [crytic/building-secure-contracts: Guide to using Slither, Echidna, and Manticore for testing](https://github.com/crytic/building-secure-contracts)
+
 #### Miscellaneous
 
 - [Utilising pre- and post- npm hooks](https://docs.npmjs.com/cli/v8/using-npm/scripts)
