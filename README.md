@@ -84,6 +84,9 @@ To help with understanding the structure of this repository, here is a diagram o
   <summary><code>.husky</code> - Bash scripts to run on Git hooks with <a href="https://github.com/typicode/husky">Husky</a></summary>
 </details>
 
+<details>
+  <summary><code>.vscode</code> - Configuration for use in VSCode IDE</summary>
+</details>
 
 <details>
   <summary><code>app</code> - Your frontend code</summary>
@@ -96,6 +99,7 @@ To help with understanding the structure of this repository, here is a diagram o
     <li><code>test</code> - Any app tests go here e.g React Component testing, E2E testing etc.</li>
     <li><code>.eslintrc.js</code> - <a href="https://eslint.org/">ESLint</a> configuration</li>
     <li><code>.gitignore</code> - Ignore any files you don't want to push to Git</li>
+    <li><code>.prettierrc</code> - <a href="https://prettier.io/">Prettier</a> configuration</li>
     <li><code>blitz.config.ts</code> - <a href="https://blitzjs.com/docs/config">Blitz configuration</a></li>
     <li><code>jest.config.ts</code> - <a href="https://jestjs.io/docs/en/configuration">Jest configuration</a></li>
     <li><code>tsconfig.json</code> - <a href="https://www.typescriptlang.org/docs/handbook/tsconfig-json.html">TypeScript configuration</a></li>
