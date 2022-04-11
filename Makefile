@@ -24,11 +24,13 @@ blitz-test:; (cd app && npm run test)
 test: forge-test blitz-test
 
 # Blitz Miscs
+# See: https://blitzjs.com/docs/cli-overview#available-commands
 app:; (cd app && npm run build)
 dev:; (cd app && npm run dev)
 prod:; (cd app && npm run start)
 
 # Forge Miscs
+# See: https://github.com/gakonst/foundry/blob/master/cli/README.md#foundry-clis
 contracts:; forge build
 snapshot:; forge snapshot
 report:; forge test --gas-report
