@@ -64,13 +64,11 @@ The Git submodule will be installed under `lib`.
 
 ## Configuration
 
-To configure the project, you will need to set a few environment variables. These are found in `.env.sample`.
+To configure the project, you will need to set a few environment variables. These are found in `app/.env.sample`.
 
-Make a copy of `.env.sample` and rename it to `.env`.
+Make a copy of `.env.sample` and rename it to `.env`. Then, edit the file to set the values you need.
 
-Then, edit the file to set the values you need.
-
-The `.env` file is hidden from Git via `.gitignore` as to ensure that you don't accidentally commit it.
+Note: The `.env` file is hidden from Git via `.gitignore` as to ensure that you don't accidentally commit it.
 
 ## Commands
 
