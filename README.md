@@ -170,6 +170,8 @@ Below are several resources that may be helpful for getting started with this bo
 
 - [adrianmcli/web3-vs-ethers: Web3.js vs Ethers.js](https://github.com/adrianmcli/web3-vs-ethers)
 - [Standardising login UX with web3modal](https://github.com/Web3Modal/web3modal)
+- [spruceid/siwe: a sign-in authentication protocol (EIP-4361) for Web3](https://github.com/spruceid/siwe)
+- [The original EIP-4361: Sign-In with Ethereum proposal](https://eips.ethereum.org/EIPS/eip-4361)
 - [bytesbay/web3-token: authenticate users without JWTs](https://github.com/bytesbay/web3-token)
 - [Impersonate as any wallet address into a Dapp](https://github.com/apoorvlathey/impersonator)
 
