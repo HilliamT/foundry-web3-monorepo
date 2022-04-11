@@ -170,6 +170,7 @@ Below are several resources that may be helpful for getting started with this bo
 
 - [adrianmcli/web3-vs-ethers: Web3.js vs Ethers.js](https://github.com/adrianmcli/web3-vs-ethers)
 - [Standardising login UX with web3modal](https://github.com/Web3Modal/web3modal)
+- [bytesbay/web3-token: authenticate users without JWTs](https://github.com/bytesbay/web3-token)
 - [Impersonate as any wallet address into a Dapp](https://github.com/apoorvlathey/impersonator)
 
 #### Smart Contract Testing
