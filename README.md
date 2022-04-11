@@ -72,7 +72,41 @@ Note: The `.env` file is hidden from Git via `.gitignore` as to ensure that you 
 
 ## Commands
 
-`🚧 TODO: Write 🚧`
+To simplify the commands there are available, the `makefile` provides a subset of the commands that would be commonly used.
+
+To install any dependencies for either the frontend or smart contract backend, run:
+
+```bash
+make install # installs all dependencies for the frontend and smart contract backend
+```
+
+To run the frontend in a prototyping development environment, run:
+
+```bash
+make dev # runs the frontend in development mode
+```
+
+To run the frontend in a production environment, run:
+
+```bash
+make app # build the frontend blitz files
+make prod # run the built files in production mode
+```
+
+To build the smart contracts and then test them, run:
+
+```bash
+make contracts # builds the smart contracts
+make forge-test # tests the smart contracts
+```
+
+To test both the frontend and smart contract backend, run:
+
+```bash
+make test # tests the frontend and smart contract backend
+```
+
+Further commands can be found within the `makefile`.
 
 ## Folder Structure
 
